@@ -4,7 +4,7 @@
 op = "t"
 while op == "t":
 
-    data = input("Podaj trzy liczby oddzielone spacjami: ")
+    data = input("Podaj trzy liczby: ")
 
     if data.find(",") == 1:
         try:
