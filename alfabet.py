@@ -2,8 +2,11 @@
 # -*- coding: utf-8 -*-
 
 print("Alfabet w porządku naturalnym:")
+
+n = input("n: ")
+
 x = 0
-for i in range(65, 91):
+for i in range(65, 91, int(n)):
     litera = chr(i)
     x += 1
     tmp = litera + " => " + litera.lower()
